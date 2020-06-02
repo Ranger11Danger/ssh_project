@@ -1,5 +1,5 @@
 # ssh_project
 
-get_shell opens up a full pty through an authenticated session
+make sure you have libssh and pthread installed
 
-run_command uses threading and a channel to exec a single command but can be ran over and over
+after that just run the make command and use the binary with the correct args
